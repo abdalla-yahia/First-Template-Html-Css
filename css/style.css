@@ -637,18 +637,17 @@ position: absolute;
 .footer
 {
     background-color: var(--secondary-color);
-    height: 80px;
+    height: 60px;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
+    text-align: center;
     letter-spacing: 1px;
     font-weight: 600;
+    padding: 40px ;
 }
 
-.footer span
+.footer span,a
 {
     color: var(--main-color);
+    text-decoration: none;
 }
 /*End Footer*/
